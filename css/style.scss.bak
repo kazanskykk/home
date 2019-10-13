@@ -1,0 +1,58 @@
+
+$con:#7725ff;
+
+
+/* reset */
+* {margin:0;padding:0}
+a {text-decoration:none;color:black;}
+img {vertical-align:top;border:0}
+ul,li {list-style:none}
+a,p,h2,h3,h4,h5,span,li {font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;}
+
+/* layout */
+#header {min-width:940px;height:700px}
+#visual {min-width:940px}
+#contents {min-width:940px}
+#footer {min-width:940px}
+
+/* header */
+#header {background:url(../images/main2.png)no-repeat;
+background-size:cover}
+#gnb1 {display:inline-block;margin-left:200px;margin-top:50px}
+#gnb1 li {float:left;padding:0 20px}
+#logo {text-align:center}
+#logo img {margin-bottom:50px}
+#gnb1 a {color:white;opacity:.7}
+#gnb2 {float:right;margin-right:200px;margin-top:50px}
+.add::after {content:'/';color:white;opacity:.7}
+#gnb2 li {float:left;}
+#gnb2 a {color:white;opacity:.7}
+
+.day {border:1.5px solid white; border-radius:30px;width:150px;margin:0 auto;
+color:white;font-size:1em;text-align:center;height:30px;font-weight:500;
+margin-bottom:50px}
+#mungu {width:500px;margin:0 auto;line-height:400%}
+.ma1 {color:$con;font-size:4em;text-align:center;font-weight:500}
+.ma2 {text-align:center;color:white;font-size:4em;font-weight:500}
+.ma3 {text-align:center;color:white;font-weight:500;font-size:1em;opacity:.8}
+#img-grid {width:940px;margin:0 auto;margin-top:130px;position:relative}
+.img1,.img2,.img3,.img4,.img5,.img6 {position:absolute;font-size:0.9em}
+.txt11 {position:absolute;top:-30px;color:white;left:10px}
+.img2 {z-index:2;left:115px;top:-30px}
+.img2 img {width:230px}
+.txt22 {position:absolute;top:-30px;right:0;color:white}
+.img3 {z-index:1;top:190px;left:100px}
+.img3 img {width:150px}
+.txt33 {position:absolute;left:-40px;bottom:25px}
+.img4 {z-index:3;left:260px;top:-50px}
+.img4 img {width:350px}
+.txt44 {position:absolute;right:50px;bottom:-30px}
+.img5 {z-index:1;right:80px;top:60px}
+.img5 img {width:300px}
+.txt55 {position:absolute;right:0;text-align:right;}
+.img6 {right:-130px}
+.txt66 {position:absolute;text-align:right;right:0;top:-30px;color:white}
+
+
+
